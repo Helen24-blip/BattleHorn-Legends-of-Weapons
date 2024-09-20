@@ -38,7 +38,7 @@ class Monster:
 
 def battle(fighter: Fighter, monster: Monster):
     print(f"{fighter.name} сражается с {monster.name}!")
-    print(f"{fighter.name} атакует {weapon.attack})
+    print(f"{fighter.weapon.attack()}")
     print(f"{monster.name} побежден ")
 
 
